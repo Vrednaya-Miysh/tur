@@ -14,13 +14,13 @@ public class tur {
           public static void main (String [] args) throws java.io.IOException{
             
             System.out.print("Введите количество человек: "); /* ввод*/
-            Scanner sc = new Scanner(System.in); /* считывает кол-во человек/
-            int kolich = sc.nextInt();           /* записывает кол-во человек*/ 
+            Scanner sc = new Scanner(System.in); /* считывает кол-во человек в путевке/
+            int kolich = sc.nextInt();           /* записывает кол-во человек в путевке*/ 
             
                                                     
             System.out.print("Выбор отеля (количество звезд от 3 до 5): ");/* ввод*//* считывает количество звезд*/
-            Scanner sc2= new Scanner (System.in);                         /* считывает количество звезд*/ 
-            int zv = sc2.nextInt();                                       /* запоминает количество звезд*/ 
+            Scanner sc2= new Scanner (System.in);                         /* считывает количество звезд отеля*/ 
+            int zv = sc2.nextInt();                                       /* запоминает количество звезд отеля*/ 
            
             System.out.print("Выбор пакета экскурсий 1-cтандартный, 2 - расширенный: ");/* ввод*/
             Scanner sc3 = new Scanner(System.in);          /* считывает данные для формирования пакета экскурсий на отдыхе*/
